@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py \"Build a TypeScript React frontend for a Todo List app. The backend is a FastAPI server running at http://127.0.0.1:8000 with these endpoints: GET /todos \\(list all\\), POST /todos \\(create, body: {title: string, description?: string}\\), GET /todos/{id}, PUT /todos/{id} \\(body: {title?, description?, completed?}\\), DELETE /todos/{id}. Requirements: use Vite + React + TypeScript, fetch API for HTTP calls \\(no axios\\), display todos in a list with title and description, checkbox to toggle completed, delete button per todo, form to add new todo \\(title + description\\), show loading and error states. Output all files needed to run with: npm create vite, including package.json, src/App.tsx, src/types.ts, src/api.ts, index.html. No external UI libraries, plain CSS in App.css.\")",
+      "Bash(npm install *)",
+      "Bash(chmod +x \"/Users/hamsikarg/Desktop/multi-agent coding/start.sh\")",
+      "Bash(npm run *)",
+      "Bash(ls ~/.claude/projects/ 2>/dev/null | head -20)",
+      "Bash(find /Users/hamsikarg -name \"*.jsonl\" 2>/dev/null | grep -i claude | head -20)",
+      "Bash(xargs kill -9)",
+      "Bash(bash start.sh)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(curl -s -I http://localhost:8000/health)",
+      "Bash(curl -s -H \"Origin: http://localhost:5173\" http://localhost:8000/health)",
+      "Bash(curl -sv -H \"Origin: http://localhost:5173\" http://localhost:8000/health)",
+      "Bash(curl -s -X POST http://localhost:8000/run -H 'Content-Type: application/json' -H 'Origin: http://localhost:5173' -d '{\"prompt\": \"build a hello world app\"}' --max-time 5)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(brew install *)",
+      "Bash(sudo mkdir -p /Users/hamsikarg/.config/gh)",
+      "Bash(sudo chown -R hamsikarg /Users/hamsikarg/.config)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
